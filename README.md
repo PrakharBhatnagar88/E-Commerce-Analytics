@@ -30,12 +30,12 @@ My process followed a rigorous data pipeline to ensure accuracy and scalability:
    - Handled missing values and standardized data formats.
    - Performed initial EDA to identify outliers and anomalies.
    - Built a baseline dashboard within Excel to validate early findings.
-     
+
 **2. Data Engineering (SQL):**
    - Imported the cleaned dataset into a relational database.
    - Wrote complex queries to calculate Year-to-Date (YTD) sales, Profit Margins, and Order Volumes.
    - Structured the data to be "BI-ready," reducing the need for heavy calculations within the visualization tools.
-      
+     
 **3. Visualization (Power BI & Tableau):**
    - Imported the SQL-optimized tables.
    - Designed high-fidelity dashboards focusing on user-centric design (UX) and drill-down capabilities.
