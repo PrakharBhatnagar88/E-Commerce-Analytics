@@ -1,4 +1,8 @@
 # E-Commerce-Analytics
+<br>
+<img width="1919" height="1199" alt="Tableau Dashboard (1)" src="https://github.com/user-attachments/assets/9dad96e4-d6dd-4e42-9373-c5ca2bbf6548" />
+<img width="1919" height="1189" alt="PowerBI Dashboard (1)" src="https://github.com/user-attachments/assets/10816ecd-5bf3-456c-8ba0-98b136b56d08" />
+<br><br>
 I built this to solve the classic e-commerce headache: having plenty of data but no idea why shipping is slow or why customers are abandoning their carts. By layering SQL for logic, Excel for the initial mess, and both Power BI/Tableau for the finish line, I created a full-circle view of business health.
 
 ## The Toolkit
