@@ -24,16 +24,21 @@ I chose a "best-of-breed" approach, using each tool for its specific strength in
 
 
 ## The Workflow
-**1. Data Extraction:** Pulled raw transactional data from CSV/Database sources.
+My process followed a rigorous data pipeline to ensure accuracy and scalability:
 
-**2. SQL Processing:** Performed data transformation including:
-   - Calculating Year-over-Year (YoY) growth.
-   - Segmenting customers based on purchase frequency.
-   - Standardizing currency and date formats.
+**1. Cleaning & Initial Analysis (Excel):**
+   - Handled missing values and standardized data formats.
+   - Performed initial EDA to identify outliers and anomalies.
+   - Built a baseline dashboard within Excel to validate early findings.
      
-**3. Modeling:** Established relationships (Star Schema) to ensure high-performance filtering in the dashboards.
-     
-**4. Visualization:** Designed intuitive layouts focused on UX (User Experience), ensuring stakeholders can find answers in under 10 seconds.
+**2. Data Engineering (SQL):**
+   - Imported the cleaned dataset into a relational database.
+   - Wrote complex queries to calculate Year-to-Date (YTD) sales, Profit Margins, and Order Volumes.
+   - Structured the data to be "BI-ready," reducing the need for heavy calculations within the visualization tools.
+      
+**3. Visualization (Power BI & Tableau):**
+   - Imported the SQL-optimized tables.
+   - Designed high-fidelity dashboards focusing on user-centric design (UX) and drill-down capabilities.
 
 
 ## Key Insights
