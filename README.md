@@ -1,7 +1,6 @@
 # E-Commerce-Analytics
 <br>
 <img width="1919" height="1199" alt="Tableau Dashboard (1)" src="https://github.com/user-attachments/assets/9dad96e4-d6dd-4e42-9373-c5ca2bbf6548" />
-<img width="1919" height="1189" alt="PowerBI Dashboard (1)" src="https://github.com/user-attachments/assets/10816ecd-5bf3-456c-8ba0-98b136b56d08" />
 <br><br>
 This project provides a comprehensive 360-degree view of an e-commerce business's performance. By integrating data from multiple sources, I’ve built a dual-platform solution (Power BI & Tableau) to track high-level KPIs, customer behavior, and regional sales trends.
 
