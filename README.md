@@ -53,12 +53,15 @@ The Tableau dashboard provides a visual breakdown of:
 
 
 ## Repository Structure
-`brazilian-ecommerce-analytics`
+`olist-ecommerce-analytics`
 
--  `dataset/` (Contains the Olist CSV files)
--  `sql_queries/` (Scripts for data aggregation and KPI calculation)
--  `dashboard/` (The `Tableau Dashboard.twbx` file) 
--  `README.md`
+├── dataset/ # Raw Olist CSV files (Customers, Orders, Payments, etc.)
+
+├── sql_queries/ │   └── SQL E-Commerce.sql       # Main script containing 12+ KPI extraction queries
+
+├── dashboard/ │   └── Tableau Dashboard.twbx   # Final interactive Tableau workbook
+
+└── README.md                    # Project documentation and summary
 
 
 ## My Contribution
