@@ -66,11 +66,15 @@ The Tableau dashboard provides a visual breakdown of:
 
 ## My Contribution
 
-- **Data Engineering:** Joined multiple relational tables using SQL to create a master dataset.
-- **Analytical Querying:** Wrote SQL scripts to calculate Monthly Recurring Revenue (MRR) and customer lifetime value.
-- **Visualization:** Designed a Tableau dashboard focused on executive-level KPIs.
-- **Logistics Analysis:** Analyzed the gap between estimated vs. actual delivery dates.
-
+- **Database Schema Management:** Connected and joined 8+ relational tables (Orders, Reviews, Payments, etc.) to ensure data integrity for analysis.
+- **Advanced SQL Querying:** Authored SQL E-Commerce.sql to extract high-level business metrics, including:
+    - **Temporal Analysis:** Comparing order volume and average payment value between Weekdays vs. Weekends.
+    - **Geospatial KPIs:** Calculating the average number of days for delivery across different Brazilian cities.
+    - **Financial Health:** Identifying the Top 5 and Bottom 5 Product Categories based on profit margins.
+- **Tableau Dashboard Design & UX:**
+    - **Interactive Filtering:** Implemented "Global Filters" for Date, City, and Category, allowing users to drill down into specific market segments with one click.
+    - **Visual Storytelling:** Chose specific chart types (e.g., Heatmaps for geography and Trend lines for growth) to make complex data instantly understandable for non-technical stakeholders.
+    - **KPI Scorecards:** Designed high-level summary cards at the top of the dashboard for "at-a-glance" tracking of Total Revenue, Average Review Score, and Total Orders.
 
 ## Business Questions
 
@@ -80,6 +84,6 @@ The Tableau dashboard provides a visual breakdown of:
 
 ## Future Improvements
 
-* **Predictive Modeling:** Use Python to predict delivery delays before they happen.
-* **Customer Segmentation:** Apply RFM (Recency, Frequency, Monetary) analysis to identify "Power Users."
-* **Market Basket Analysis:** Identify which products are frequently bought together to improve recommendation logic.
+- **Data Quality Management:** Implement more robust scripts for handling null and missing values to ensure 100% data accuracy.
+- **Advanced Modeling:** Forming a bridge table between specific sheets to resolve many-to-many relationship complexities.
+- **Schema Optimization:** Establishing different types of relationships (One-to-One, One-to-Many) between sheets to improve dashboard loading speed and query performance.
